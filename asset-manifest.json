@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/car-repair/static/css/main.68bfbd20.css",
+    "main.js": "/car-repair/static/js/main.d418438a.js",
+    "static/media/sandero.jpg": "/car-repair/static/media/sandero.bc84b471072a17a9ed7f.jpg",
+    "index.html": "/car-repair/index.html",
+    "main.68bfbd20.css.map": "/car-repair/static/css/main.68bfbd20.css.map",
+    "main.d418438a.js.map": "/car-repair/static/js/main.d418438a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68bfbd20.css",
+    "static/js/main.d418438a.js"
+  ]
+}
