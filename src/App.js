@@ -21,7 +21,7 @@ function App() {
   };
 
   const segundo = {
-    date: '14/12/18',
+    date: '14/12/2018',
     products: ['disco de freio', 'dianteiro ventilado', 'pastilha de freio'],
     services: [
       'substituição disco e pastilha de freio dianteiro',
