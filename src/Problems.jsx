@@ -8,6 +8,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 class Problems extends Component {
   render() {
     const { date, price, products, services } = this.props.repato;
+    const servicesValidation = () => {
+      if (services.length !== 0) {
+        return <p>Serviços:</p>;
+      } else {
+        return null;
+      }
+    };
     return (
       <section className='container acc-section'>
         <Accordion>
@@ -21,7 +28,7 @@ class Problems extends Component {
                   <li key={produto}>{produto}</li>
                 ))}
               </ul>
-              <p>Serviços:</p>
+              {servicesValidation()}
               <ul>
                 {services.map((service) => (
                   <li key={service}>{service}</li>
