@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/car-repair/static/css/main.ca451e3b.css",
-    "main.js": "/car-repair/static/js/main.525eadfb.js",
+    "main.css": "/car-repair/static/css/main.025c1474.css",
+    "main.js": "/car-repair/static/js/main.f2feede2.js",
     "static/media/sandero.jpg": "/car-repair/static/media/sandero.bc84b471072a17a9ed7f.jpg",
     "index.html": "/car-repair/index.html",
-    "main.ca451e3b.css.map": "/car-repair/static/css/main.ca451e3b.css.map",
-    "main.525eadfb.js.map": "/car-repair/static/js/main.525eadfb.js.map"
+    "main.025c1474.css.map": "/car-repair/static/css/main.025c1474.css.map",
+    "main.f2feede2.js.map": "/car-repair/static/js/main.f2feede2.js.map"
   },
   "entrypoints": [
-    "static/css/main.ca451e3b.css",
-    "static/js/main.525eadfb.js"
+    "static/css/main.025c1474.css",
+    "static/js/main.f2feede2.js"
   ]
 }
