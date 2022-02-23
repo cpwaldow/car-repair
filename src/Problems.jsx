@@ -9,7 +9,7 @@ class Problems extends Component {
   render() {
     const { date, price, products, services } = this.props.repato;
     return (
-      <section className='container teste'>
+      <section className='container acc-section'>
         <Accordion>
           <Accordion.Item eventKey='0' className='acc-item'>
             <Accordion.Header>Data do reparo: {date}</Accordion.Header>
