@@ -9,9 +9,9 @@ class Problems extends Component {
   render() {
     const { date, price, products, services } = this.props.repato;
     return (
-      <section className='container'>
+      <section className='container acc-section'>
         <Accordion>
-          <Accordion.Item eventKey='0'>
+          <Accordion.Item eventKey='0' className='acc-item'>
             <Accordion.Header>Data do reparo: {date}</Accordion.Header>
             <Accordion.Body>
               <p>R$: {price}</p>

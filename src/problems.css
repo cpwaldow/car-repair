@@ -7,3 +7,11 @@ article {
 ul {
   width: 250px;
 }
+
+.acc-section {
+  margin-bottom: 20px;
+}
+
+.acc-item {
+  width: 300px;
+}
