@@ -142,7 +142,7 @@ function App() {
     marca: 'renault',
     age: 2008,
     motor: '1.6 16V',
-    km: 105.5,
+    km: 106.7,
   };
 
   const valorTotal =
