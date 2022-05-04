@@ -123,6 +123,13 @@ function App() {
     price: 2102,
   };
 
+  const decimoPrimeiro = {
+    date: '29/04/2022',
+    products: ['filtro de óleo', 'filtro de ar motor', 'filtro de combustível', 'óleo motor 10w40 Elaion',],
+    services: [],
+    price: 342,
+  };
+
   const roda = {
     date: '15/08/2020',
     products: ['2 rodas traseitas', 'valvula'],
@@ -149,7 +156,8 @@ function App() {
     oitavo.price +
     nono.price +
     decimo.price +
-    roda.price;
+    roda.price +
+    decimoPrimeiro.price;
 
   return (
     <div className='container'>
@@ -157,6 +165,7 @@ function App() {
       <p className='totalPrice'>
         Valor total em manutenção: R$ {valorTotal.toLocaleString()}
       </p>
+      <Problems repato={decimoPrimeiro} />
       <Problems repato={decimo} />
       <Problems repato={nono} />
       <Problems repato={oitavo} />
