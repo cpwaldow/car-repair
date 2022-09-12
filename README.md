@@ -12,4 +12,4 @@ Para rodar o projeto em um servidor local, basta rodar o comando `npm start`
 
 ### Deployment
 
-Para fazer o deploy no github pages, basta rodar `npm run deploy`
+Para fazer o deploy no github pages basta rodar `npm run deploy`
